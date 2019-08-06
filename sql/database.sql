@@ -19,3 +19,12 @@ VALUES('Alejandra', 'Flores', 'Admin', 'aleja@flores.com', '123', true);
 -- CREATE TABLE IF NOT EXISTS ROLE(
 --     id INTEGER PRIMARY KEY
 -- );
+
+INSERT INTO USERS(firstname, lastname, role, username, password, active)
+VALUES('Alejandra', 'Flores', 1, 'alejandra', '123', true)
+
+INSERT INTO USERS(firstname, lastname, role, username, password, active)
+VALUES('Eduardo', 'Ruano', 1, 'eduardo', '123', true)
+
+INSERT INTO USERS(firstname, lastname, role, username, password, active)
+VALUES('Daniel', 'Ortega', 2, 'daniel', '123', true)
